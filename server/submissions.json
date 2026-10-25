@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1762076206506,
+    "timestamp": "2025-11-02T09:36:46.506Z",
+    "fields": {
+      "firstName": "kjdfh",
+      "surName": "dfhao",
+      "dob": "2002-03-12",
+      "gender": "Female",
+      "nationality": "indian",
+      "aadhar": "8924871974989812",
+      "category": "OBC",
+      "permanentAddress": "fgiafkjf;afjadif",
+      "correspondenceAddress": "ejrfjoaifjao",
+      "email": "mdfaisal@gmail.com",
+      "phone": "9739128634",
+      "altPhone": "",
+      "prevSchool": "anjuman",
+      "yearOfPassing10": "2020",
+      "board10": "state",
+      "percentage10": "78",
+      "yearOfPassing12": "2022",
+      "board12": "state",
+      "percentage12": "69",
+      "course": "ECE",
+      "fatherName": "saklsjdo",
+      "fatherOccupation": "uqwrypU",
+      "fatherContact": "FAFYPIO",
+      "motherName": "89273498203",
+      "motherOccupation": "FALSFHOIA",
+      "motherContact": "379920",
+      "guardianAddress": "",
+      "annualIncome": "39469"
+    },
+    "files": [
+      {
+        "fieldname": "photo",
+        "originalname": "Red and Black Typographic Killer Wattpad Book Cover (Instagram Post (45)).png",
+        "filename": "1762076206397-Red-and-Black-Typographic-Killer-Wattpad-Book-Cover-(Instagram-Post-(45)).png",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762076206397-Red-and-Black-Typographic-Killer-Wattpad-Book-Cover-(Instagram-Post-(45)).png"
+      },
+      {
+        "fieldname": "marksheet10",
+        "originalname": "Gemini_Generated_Image_t9osy7t9osy7t9os.png",
+        "filename": "1762076206437-Gemini_Generated_Image_t9osy7t9osy7t9os.png",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762076206437-Gemini_Generated_Image_t9osy7t9osy7t9os.png"
+      },
+      {
+        "fieldname": "marksheet12",
+        "originalname": "foci bold typo-01.png",
+        "filename": "1762076206462-foci-bold-typo-01.png",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762076206462-foci-bold-typo-01.png"
+      }
+    ]
+  },
+  {
+    "id": 1762700342707,
+    "timestamp": "2025-11-09T14:59:02.707Z",
+    "fields": {
+      "firstName": "safan",
+      "surName": "pir",
+      "dob": "2004-06-26",
+      "gender": "Male",
+      "nationality": "indian",
+      "aadhar": "82749021641089",
+      "category": "OBC",
+      "permanentAddress": "azaa nagar",
+      "correspondenceAddress": "azad nagar",
+      "email": "safwan@gmail.com",
+      "phone": "7899986512",
+      "altPhone": "",
+      "prevSchool": "anjuman",
+      "yearOfPassing10": "2020",
+      "board10": "state",
+      "percentage10": "78",
+      "yearOfPassing12": "2022",
+      "board12": "state",
+      "percentage12": "70",
+      "course": "CSE",
+      "fatherName": "NAZIM",
+      "fatherOccupation": "falfj[ujca",
+      "fatherContact": "982379-5275",
+      "motherName": "dksfhapo",
+      "motherOccupation": "afhpidf",
+      "motherContact": "3272-79590",
+      "guardianAddress": "",
+      "annualIncome": "273500"
+    },
+    "files": [
+      {
+        "fieldname": "photo",
+        "originalname": "b.jfif",
+        "filename": "1762700342649-b.jfif",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762700342649-b.jfif"
+      },
+      {
+        "fieldname": "marksheet10",
+        "originalname": "login-background.jpg",
+        "filename": "1762700342652-login-background.jpg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762700342652-login-background.jpg"
+      },
+      {
+        "fieldname": "marksheet12",
+        "originalname": "WhatsApp Image 2025-02-10 at 12.48.04 PM.jpeg",
+        "filename": "1762700342673-WhatsApp-Image-2025-02-10-at-12.48.04-PM.jpeg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762700342673-WhatsApp-Image-2025-02-10-at-12.48.04-PM.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 1762701102669,
+    "timestamp": "2025-11-09T15:11:42.669Z",
+    "fields": {
+      "firstName": "safan",
+      "surName": "pir",
+      "dob": "2004-06-26",
+      "gender": "Male",
+      "nationality": "indian",
+      "aadhar": "82749021641089",
+      "category": "OBC",
+      "permanentAddress": "azaa nagar",
+      "correspondenceAddress": "azad nagar",
+      "email": "safwan@gmail.com",
+      "phone": "7899986512",
+      "altPhone": "",
+      "prevSchool": "anjuman",
+      "yearOfPassing10": "2020",
+      "board10": "state",
+      "percentage10": "78",
+      "yearOfPassing12": "2022",
+      "board12": "state",
+      "percentage12": "70",
+      "course": "CSE",
+      "fatherName": "NAZIM",
+      "fatherOccupation": "falfj[ujca",
+      "fatherContact": "982379-5275",
+      "motherName": "dksfhapo",
+      "motherOccupation": "afhpidf",
+      "motherContact": "3272-79590",
+      "guardianAddress": "",
+      "annualIncome": "273500"
+    },
+    "files": [
+      {
+        "fieldname": "photo",
+        "originalname": "b.jfif",
+        "filename": "1762701102618-b.jfif",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701102618-b.jfif"
+      },
+      {
+        "fieldname": "marksheet10",
+        "originalname": "login-background.jpg",
+        "filename": "1762701102620-login-background.jpg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701102620-login-background.jpg"
+      },
+      {
+        "fieldname": "marksheet12",
+        "originalname": "WhatsApp Image 2025-02-10 at 12.48.04 PM.jpeg",
+        "filename": "1762701102632-WhatsApp-Image-2025-02-10-at-12.48.04-PM.jpeg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701102632-WhatsApp-Image-2025-02-10-at-12.48.04-PM.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 1762701435349,
+    "timestamp": "2025-11-09T15:17:15.349Z",
+    "fields": {
+      "firstName": "sjqhwi",
+      "surName": "qDwjh",
+      "dob": "1990-02-08",
+      "gender": "Male",
+      "nationality": "INDIA",
+      "aadhar": "8959238752",
+      "category": "OBC",
+      "permanentAddress": "skajndckjasn",
+      "correspondenceAddress": "ksadapij0",
+      "email": "safwan@gmail.com",
+      "phone": "7899986512",
+      "altPhone": "",
+      "prevSchool": "anjuman",
+      "yearOfPassing10": "2020",
+      "board10": "state",
+      "percentage10": "80",
+      "yearOfPassing12": "2022",
+      "board12": "state",
+      "percentage12": "78",
+      "course": "CE",
+      "fatherName": "NAZIM",
+      "fatherOccupation": "falfj[ujca",
+      "fatherContact": "982379-5275",
+      "motherName": "dksfhapo",
+      "motherOccupation": "afhpidf",
+      "motherContact": "28721-75987",
+      "guardianAddress": "",
+      "annualIncome": "273500"
+    },
+    "files": [
+      {
+        "fieldname": "photo",
+        "originalname": "poster 1.png",
+        "filename": "1762701435282-poster-1.png",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701435282-poster-1.png"
+      },
+      {
+        "fieldname": "marksheet10",
+        "originalname": "final round.jpg",
+        "filename": "1762701435311-final-round.jpg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701435311-final-round.jpg"
+      },
+      {
+        "fieldname": "marksheet12",
+        "originalname": "login-background.jpg",
+        "filename": "1762701435316-login-background.jpg",
+        "path": "C:\\Users\\moham\\Desktop\\Code\\React\\collegeAddmissionForm\\server\\uploads\\1762701435316-login-background.jpg"
+      }
+    ]
+  }
+]

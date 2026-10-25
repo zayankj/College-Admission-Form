@@ -11,6 +11,9 @@ function App() {
 
 function AdmissionForm() {
   const [step, setStep] = useState(1);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionSuccess, setSubmissionSuccess] = useState(false);
+  const [pdfUrl, setPdfUrl] = useState("");
 
   // State variables for form fields
   const [formData, setFormData] = useState({
@@ -80,32 +83,82 @@ function AdmissionForm() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     const formDataToSend = new FormData();
     for (const key in formData) {
       formDataToSend.append(key, formData[key]);
     }
 
-    fetch("http://localhost:5000/submit", {
-      method: "POST",
-      body: formDataToSend,
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Success:", data);
-        alert("Thanks for your submission!");
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-        alert("There was an error with your submission. Please try again.");
+    try {
+      const response = await fetch("http://localhost:5000/submit", {
+        method: "POST",
+        body: formDataToSend,
       });
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      const data = await response.json();
+      console.log("Success:", data);
+
+      // Set PDF URL and show success message
+      setPdfUrl(data.pdfUrl);
+      setSubmissionSuccess(true);
+      setStep(7); // Move to success step
+    } catch (error) {
+      console.error("Error:", error);
+      alert("There was an error with your submission. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleDownloadPDF = () => {
+    window.open(pdfUrl, "_blank");
+  };
+
+  const handleNewSubmission = () => {
+    // Reset form
+    setFormData({
+      firstName: "",
+      surName: "",
+      dob: "",
+      gender: "",
+      nationality: "",
+      aadhar: "",
+      category: "",
+      photo: null,
+      permanentAddress: "",
+      correspondenceAddress: "",
+      email: "",
+      phone: "",
+      altPhone: "",
+      prevSchool: "",
+      yearOfPassing10: "",
+      board10: "",
+      percentage10: "",
+      yearOfPassing12: "",
+      board12: "",
+      percentage12: "",
+      marksheet10: null,
+      marksheet12: null,
+      course: "",
+      fatherName: "",
+      fatherOccupation: "",
+      fatherContact: "",
+      motherName: "",
+      motherOccupation: "",
+      motherContact: "",
+      guardianAddress: "",
+      annualIncome: "",
+    });
+    setStep(1);
+    setSubmissionSuccess(false);
+    setPdfUrl("");
   };
 
   return (
@@ -667,11 +720,37 @@ function AdmissionForm() {
               </div>
             )}
 
-            <button type="button" onClick={prevStep}>
+            <button type="button" onClick={prevStep} disabled={isSubmitting}>
               Previous
             </button>
-            <button type="submit" onClick={handleSubmit}>
-              Submit
+            <button
+              type="submit"
+              onClick={handleSubmit}
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? "Submitting..." : "Submit"}
+            </button>
+          </div>
+        )}
+
+        {step === 7 && submissionSuccess && (
+          <div className="success-container">
+            <div className="success-icon">✓</div>
+            <h2>Submission Successful!</h2>
+            <p>Your admission form has been submitted successfully.</p>
+            <p>Your application PDF has been generated.</p>
+
+            <div className="pdf-download-section">
+              <button className="download-btn" onClick={handleDownloadPDF}>
+                📄 Download PDF
+              </button>
+            </div>
+
+            <button
+              className="new-submission-btn"
+              onClick={handleNewSubmission}
+            >
+              Submit Another Form
             </button>
           </div>
         )}
